@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  margin: auto;
+  width: 600px;
+}
+
+h1 {
+  margin: auto;
+  width: 600px;
+  margin-top: 10px;
+}
