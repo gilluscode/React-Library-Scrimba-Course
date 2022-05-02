@@ -2,16 +2,21 @@
 
 const page = (
     // this is JSX
-    <div>
-    <h1>My awesome website in React</h1>
-    <h3>Reasons I love React</h3>
+    <div className="container">
+        <div className="header">
+            <h3>My awesome website in React</h3>
+        </div>
+    <h4>Reasons I love React</h4>
     <ol>
         <li>It's composable</li>
         <li>It's declarative</li>
         <li>It's a hireable skill</li>
         <li>It's actively maintained by skilled people</li>
     </ol>
-</div>
+    <footer>
+        <p>This is a gillus design,  2022</p>
+    </footer>
+    </div>
 
 )
 

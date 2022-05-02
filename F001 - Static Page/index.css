@@ -1,5 +1,35 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
+
+
+.container {
+  width: 450px;
+  padding: 5px;
+  margin: auto;
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.header {
+  max-width: 100%;
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h4 {
+  margin-top: 10px;
+}
+
+
+footer {
+  width: 100%;
+  padding: 5px;
+  background-color:cornsilk;
+}
+
+footer > p {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  size: 6px;
 }
