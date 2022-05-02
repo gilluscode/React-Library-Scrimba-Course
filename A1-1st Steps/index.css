@@ -4,13 +4,39 @@
   box-sizing: border-box;
 }
 
+.nav {
+  background-color: steelblue;
+  width: 100%;
+  padding: 10px;
+  color: azure;
+}
+
 #root {
-  margin: auto;
+  
   width: 600px;
+  height: 700px;
+  margin: auto;
+  background-color: rgba(70, 131, 180, 0.466);
+  max-width: 400px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 h1 {
-  margin: auto;
+  
   width: 600px;
   margin-top: 10px;
+}
+
+li {
+  list-style: none;
+  padding: 15px;
+}
+
+footer {
+  background-color: steelblue;
+  margin-top: 20px;
+  width: 100%;
+  padding: 60px;
+  color: azure;
 }
