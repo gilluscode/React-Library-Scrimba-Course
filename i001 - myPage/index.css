@@ -1,0 +1,83 @@
+html,
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+  display: flex;
+  align-content: space-between;
+  width: 100%;
+  background-color:#696969;
+}
+
+nav > img {
+  width: 100px;
+  padding: 10px;
+}
+
+nav > h1 {
+  font-size: 42px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+nav > p {
+  color: white;
+  text-align: center;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 228, 196, 0.425);
+}
+
+main {
+ height: 75vh;
+ background-image: url(/concrete.jpg);
+ margin-bottom: 20px;
+}
+
+main > h2 {
+ font-size:  32px;
+ padding: 40px;
+ text-align: center;
+
+}
+
+ul {
+  max-width: 400px;
+  margin: auto;
+}
+
+li {
+  padding: 40px;
+  background-color: #c0c0c08f;
+  margin: 10px;
+  list-style: none;
+  text-align: center;
+  font-size: 24px;
+}
+
+li:hover {
+  cursor: pointer;
+  background-color: #696969;
+  color: beige;
+}
+
+
+
+footer {
+  display: flex;
+  width: 100%;
+  background-color:#696969;
+}
+
+footer > small {
+  padding: 20px;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1.2;
+}
