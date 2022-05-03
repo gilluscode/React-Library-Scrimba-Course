@@ -1,0 +1,16 @@
+html,
+body {
+  margin: 0;
+  padding: 10px;
+  line-height: 1.8;
+}
+
+.container {
+  max-width: 400px;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+
